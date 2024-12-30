@@ -38,6 +38,19 @@
 			},
 			{
 				"inputs": [],
+				"name": "currentStatus",
+				"outputs": [
+					{
+						"internalType": "enum HotelRoom.Statuses",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "owner",
 				"outputs": [
 					{
@@ -78,11 +91,11 @@
 	},
 	"sources": {
 		"Hotel/HotelRoom.sol": {
-			"keccak256": "0xba5efb2f02fd670913086d2a5ee4ee79c5a25ddd1f1fc2e2353630ee5684ce14",
+			"keccak256": "0x456ae70fef182a2b734e9407aee16e36ceb307b4c5ae69e46319b466ab95f8e3",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://9f93602d035d4da55f1b1f4466c04f13700209e1bd5f985c88b1dd51834df8df",
-				"dweb:/ipfs/QmbzoTGnrKmf2GEfRr41cB7FX5cmNG7oJVRrw8mJCgiYTX"
+				"bzz-raw://86c77172acb73e595ba61786779e4e4462403c9033214b5f5286f5692b40a95b",
+				"dweb:/ipfs/QmUN6UmUfvLdxBj8o1Q4VEZXiuZFd8rXwVpFgVX8e9wwvv"
 			]
 		}
 	},
